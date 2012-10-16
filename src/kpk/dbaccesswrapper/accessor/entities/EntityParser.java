@@ -6,7 +6,7 @@ import kpk.dbaccesswrapper.accessor.utils.EntityFieldNameConverter;
 
 import android.content.ContentValues;
 
-
+@SuppressWarnings("unused")
 public class EntityParser {
 	
 	private static String sTAG = EntityParser.class.getSimpleName();

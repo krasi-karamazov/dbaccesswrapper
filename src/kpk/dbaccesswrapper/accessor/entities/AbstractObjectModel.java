@@ -12,7 +12,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.util.Log;
 
-
+@SuppressWarnings("unused")
 public abstract class AbstractObjectModel {
 
 	protected static SQLiteDatabaseBuilder sDatabaseBuilder;
