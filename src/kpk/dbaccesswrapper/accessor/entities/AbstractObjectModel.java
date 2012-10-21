@@ -53,11 +53,9 @@ public abstract class AbstractObjectModel {
 		final List<String> columns = new ArrayList<String>();
 		
 		for(String field : getFields()) {
-			Log.d("Field columns", field);
 			
 			columns.add(field);
 		}
-		Log.d("Field columns", Integer.valueOf(columns.size()).toString());
 		return columns;
 	}
 	
